@@ -1,0 +1,24 @@
+{
+  "name": "es6-trening",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel scripts.js --watch --out-file script-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siemik/ES6-trening.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siemik/ES6-trening/issues"
+  },
+  "homepage": "https://github.com/Siemik/ES6-trening#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
